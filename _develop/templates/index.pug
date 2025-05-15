@@ -1,0 +1,100 @@
+//- DOCUMENT
+doctype html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"
+html(lang="ru")
+  head
+    include partials/head.pug
+
+  body(style='background-color: #fff')
+    style
+      |* { padding: 0; }
+    center
+      table(width=600 style='background-color: #F8E5C5; border-collapse: collapse; border: none; font-family: Tahoma, Arial, san-serif' )
+        tr
+          td(width=64)
+          td
+            table(width=472 style='border-collapse: collapse; border: none;' )
+              tr
+                td(height=20)
+              tr 
+                td(align="center")
+                  img(src='https://iimg.su/s/15/6xUjwdQYYuSMdGnoyXPjKTfaUDCsmNPWy1cwWGlD.png' width="356")
+              tr
+                td(height=30)
+              tr 
+                td
+                  h1(style="margin: 0; font-size: 28px; line-height: 1; font-weight: 700;") Пароль был сброшен
+              tr
+                td(height=25)
+              tr 
+                td 
+                  p(style="margin: 0; font-size: 16px; line-height: 1; font-weight: 400;") Уважаемый игрок
+              tr
+                td(height=19)
+              tr 
+                td 
+                  p(style="margin: 0; font-size: 16px; line-height: 26px; font-weight: 400;") 
+                    |Ваш пароль от персонажа {{nickname}} был успешно сброшен!
+                    br
+                    |Новый пароль: {{newPassword}}
+              tr 
+                td(height=25)
+          td(width=64)
+      table(width=600 style='background-color: #F8E5C5; border-collapse: collapse; border: none; font-family: Tahoma, Arial, san-serif' )
+        tr
+          td(width=50)
+          td
+            table(width=500 style='border-collapse: collapse; border: none;' )
+              tr
+                td
+                  hr(style="margin: 0; border-color: #140E0E; border-radius: 1px;")
+          td(width=50)
+      table(width=600 style='background-color: #F8E5C5; border-collapse: collapse; border: none; font-family: Tahoma, Arial, san-serif' )
+        tr
+          td(width=64)
+          td
+            table(width=472 style='border-collapse: collapse; border: none;' )
+              tr 
+                td(height=25)
+              tr 
+                td
+                  p(style="margin: 0; font-size: 16px; line-height: 26px; font-weight: 400;")
+                    |Если вы не инициировали это действие, возможно, доступ к вашей учетной записи получили третьи лица.
+              tr 
+                td(height=23)
+              tr 
+                td 
+                  a(href='{{contacUsLink}}' style='display: inline-block; padding: 7px 27px; border-radius: 5px; background-color: #453A36; color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 14px; line-height: 26px;')
+                    |Связаться с нами
+              tr 
+                td(height=25)
+              tr
+                td
+                  p(style="margin: 0; font-size: 16px; line-height: 26px; font-weight: 400;")
+                    |До встречи на полях сражений!
+              tr 
+                td(height=20)
+          td(width=64)
+      table(width=600 style='background-color: #F8E5C5; border-collapse: collapse; border: none; font-family: Tahoma, Arial, san-serif')
+        tr 
+          td(width=154)
+            img(src='https://iimg.su/s/15/XqxGPo6bfBt5oe6MdMgtiIMoTfosa8ZKFoaLtCFt.png' width='154')
+          td(width=250)
+            table(width=250 style='background-color: #F8E5C5; border-collapse: collapse; border: none; font-family: Tahoma, Arial, san-serif')
+              tr 
+                td(height=127)
+              tr 
+                td
+                  center
+                    table(width=250 style='background-color: #F8E5C5; border-collapse: collapse; border: none; font-family: Tahoma, Arial, san-serif')
+                      tr 
+                        td(width=107)
+                        td(width=35)
+                          a(href='{{telegramLink}}' style='display: inline-block;')
+                            img(src='https://iimg.su/s/15/Z7Buh2HQ3p2Ss9rGLhb4zo6zgOddMhS6rJ0kC9DZ.png' width=35)
+                        td(width=8)
+                        td(width=35)
+                          a(href='{{telegramLink}}' style='display: inline-block;')
+                            img(src='https://iimg.su/s/15/q1gje2nIhqFJbJOIe1bDi71JaSWhqwzhfUPN0971.png' width=35)
+                        td(width=65)
+          td(width=196)
+            img(src='https://iimg.su/s/15/F6huyOxDSOgZQUXqxNcqbPy5vlSfS2luA7U2WjHD.png' width='196')
